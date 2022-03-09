@@ -1,0 +1,17 @@
+body{ 
+    /* nødvendigt for at forhindre footer overlap over content ved små skærme*/
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 10em;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    padding: 1em;
+    padding-bottom: 0;
+    width:100%;    
+    height:auto;
+    background: silver;
+    text-align: left;
+}
